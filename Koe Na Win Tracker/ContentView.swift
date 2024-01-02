@@ -8,17 +8,54 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedTab: Tab = .calendar
+    
+    init() {
+        UITabBar.appearance().isHidden = true
+    }
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        NavigationView {
+            TabView(selection: $selectedTab) {
+                CalendarView()
+                    .tabItem {
+                        Label("Calendar", systemImage: Tab.calendar.rawValue)
+                    }
+                    .tag(Tab.calendar)
+                
+                TodayView()
+                    .tabItem {
+                        Label("Today", systemImage: Tab.timer.rawValue)
+                    }
+                    .tag(Tab.timer)
+                
+                MenuView()
+                    .tabItem {
+                        Label("Menu", systemImage: Tab.chart.rawValue)
+                    }
+                    .tag(Tab.chart)
+                SignInView()
+                    .tabItem {
+                        Label("Sign In", systemImage: Tab.person.rawValue)
+                    }
+                    .tag(Tab.person)
+            }
+            .navigationBarTitleDisplayMode(.inline) // Optional for compact title display
+                        .navigationBarHidden(true)
         }
-        .padding()
+        
+        ZStack {
+            
+            VStack{
+                Spacer()
+                CustomTabBar(selectedTab: $selectedTab)
+            }
+            
+        }
+        
     }
 }
-
 #Preview {
     ContentView()
 }

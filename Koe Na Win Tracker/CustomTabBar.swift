@@ -8,15 +8,18 @@
 import SwiftUI
 
 enum Tab: String, CaseIterable {
-    case calendar
-    case plus
-    case house
-    
+    case calendar = "calendar"
+    case timer = "calendar.day.timeline.left"
+    case chart = "chart.bar"
+    case person = "person"
 }
+
 
 struct CustomTabBar: View {
     
     @Binding var selectedTab: Tab
+    
+    
     
     var body: some View {
         VStack {

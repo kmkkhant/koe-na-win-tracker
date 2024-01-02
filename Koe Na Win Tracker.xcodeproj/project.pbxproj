@@ -11,7 +11,52 @@
 		9393BD7E2B377CAB00A5EC21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393BD7D2B377CAB00A5EC21 /* ContentView.swift */; };
 		9393BD802B377CAC00A5EC21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9393BD7F2B377CAC00A5EC21 /* Assets.xcassets */; };
 		9393BD832B377CAC00A5EC21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9393BD822B377CAC00A5EC21 /* Preview Assets.xcassets */; };
+		9393BD8A2B377CD400A5EC21 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393BD892B377CD400A5EC21 /* CustomTabBar.swift */; };
+		9393BD8C2B3787DA00A5EC21 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393BD8B2B3787D900A5EC21 /* CalendarView.swift */; };
+		9393BD8E2B3788DC00A5EC21 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393BD8D2B3788DC00A5EC21 /* TodayView.swift */; };
+		9393BD902B3789AC00A5EC21 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393BD8F2B3789AC00A5EC21 /* MenuView.swift */; };
+		9393BDB42B37B8E500A5EC21 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393BDB32B37B8E500A5EC21 /* TaskViewModel.swift */; };
+		9393BDB92B38E6A900A5EC21 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9393BDBB2B38E6A900A5EC21 /* Localizable.strings */; };
+		9393BDBF2B3A39B700A5EC21 /* HorizonCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 9393BDBE2B3A39B700A5EC21 /* HorizonCalendar */; };
+		9393BDC72B3DFBCF00A5EC21 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9393BDC62B3DFBCF00A5EC21 /* WidgetKit.framework */; };
+		9393BDC92B3DFBCF00A5EC21 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9393BDC82B3DFBCF00A5EC21 /* SwiftUI.framework */; };
+		9393BDCC2B3DFBCF00A5EC21 /* Koe_Na_Win_CounterBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393BDCB2B3DFBCF00A5EC21 /* Koe_Na_Win_CounterBundle.swift */; };
+		9393BDCE2B3DFBCF00A5EC21 /* Koe_Na_Win_CounterLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393BDCD2B3DFBCF00A5EC21 /* Koe_Na_Win_CounterLiveActivity.swift */; };
+		9393BDD02B3DFBCF00A5EC21 /* Koe_Na_Win_Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393BDCF2B3DFBCF00A5EC21 /* Koe_Na_Win_Counter.swift */; };
+		9393BDD22B3DFBCF00A5EC21 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393BDD12B3DFBCF00A5EC21 /* AppIntent.swift */; };
+		9393BDD42B3DFBD000A5EC21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9393BDD32B3DFBD000A5EC21 /* Assets.xcassets */; };
+		9393BDD82B3DFBD000A5EC21 /* Koe Na Win CounterExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9393BDC42B3DFBCF00A5EC21 /* Koe Na Win CounterExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9393BDE02B4291D400A5EC21 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393BDDF2B4291D400A5EC21 /* SignInView.swift */; };
+		9393BDE32B42A57700A5EC21 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9393BDE22B42A57700A5EC21 /* FirebaseAuth */; };
+		9393BDE62B42A5AF00A5EC21 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 9393BDE52B42A5AF00A5EC21 /* GoogleSignIn */; };
+		9393BDE82B42A5AF00A5EC21 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9393BDE72B42A5AF00A5EC21 /* GoogleSignInSwift */; };
+		9393BDEA2B42A60F00A5EC21 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9393BDE92B42A60F00A5EC21 /* GoogleService-Info.plist */; };
+		9393BDEB2B42A60F00A5EC21 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9393BDE92B42A60F00A5EC21 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9393BDD62B3DFBD000A5EC21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9393BD702B377CAB00A5EC21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9393BDC32B3DFBCF00A5EC21;
+			remoteInfo = "Koe Na Win CounterExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9393BDD92B3DFBD000A5EC21 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9393BDD82B3DFBD000A5EC21 /* Koe Na Win CounterExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9393BD782B377CAB00A5EC21 /* Koe Na Win Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Koe Na Win Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +64,27 @@
 		9393BD7D2B377CAB00A5EC21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9393BD7F2B377CAC00A5EC21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9393BD822B377CAC00A5EC21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9393BD892B377CD400A5EC21 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		9393BD8B2B3787D900A5EC21 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		9393BD8D2B3788DC00A5EC21 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		9393BD8F2B3789AC00A5EC21 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		9393BDB32B37B8E500A5EC21 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		9393BDBA2B38E6A900A5EC21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9393BDBC2B38E6BC00A5EC21 /* my-MM */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "my-MM"; path = "my-MM.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		9393BDC42B3DFBCF00A5EC21 /* Koe Na Win CounterExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Koe Na Win CounterExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9393BDC62B3DFBCF00A5EC21 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		9393BDC82B3DFBCF00A5EC21 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		9393BDCB2B3DFBCF00A5EC21 /* Koe_Na_Win_CounterBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Koe_Na_Win_CounterBundle.swift; sourceTree = "<group>"; };
+		9393BDCD2B3DFBCF00A5EC21 /* Koe_Na_Win_CounterLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Koe_Na_Win_CounterLiveActivity.swift; sourceTree = "<group>"; };
+		9393BDCF2B3DFBCF00A5EC21 /* Koe_Na_Win_Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Koe_Na_Win_Counter.swift; sourceTree = "<group>"; };
+		9393BDD12B3DFBCF00A5EC21 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		9393BDD32B3DFBD000A5EC21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9393BDD52B3DFBD000A5EC21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9393BDDD2B3DFD2000A5EC21 /* Koe Na Win Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Koe Na Win Tracker.entitlements"; sourceTree = "<group>"; };
+		9393BDDE2B3DFD3F00A5EC21 /* Koe Na Win CounterExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Koe Na Win CounterExtension.entitlements"; sourceTree = "<group>"; };
+		9393BDDF2B4291D400A5EC21 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		9393BDE92B42A60F00A5EC21 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9393BDEC2B42A72500A5EC21 /* Koe-Na-Win-Tracker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Koe-Na-Win-Tracker-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +92,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9393BDBF2B3A39B700A5EC21 /* HorizonCalendar in Frameworks */,
+				9393BDE32B42A57700A5EC21 /* FirebaseAuth in Frameworks */,
+				9393BDE62B42A5AF00A5EC21 /* GoogleSignIn in Frameworks */,
+				9393BDE82B42A5AF00A5EC21 /* GoogleSignInSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9393BDC12B3DFBCF00A5EC21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9393BDC92B3DFBCF00A5EC21 /* SwiftUI.framework in Frameworks */,
+				9393BDC72B3DFBCF00A5EC21 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,7 +114,12 @@
 		9393BD6F2B377CAB00A5EC21 = {
 			isa = PBXGroup;
 			children = (
+				9393BDDE2B3DFD3F00A5EC21 /* Koe Na Win CounterExtension.entitlements */,
+				9393BDBB2B38E6A900A5EC21 /* Localizable.strings */,
+				9393BDB32B37B8E500A5EC21 /* TaskViewModel.swift */,
 				9393BD7A2B377CAB00A5EC21 /* Koe Na Win Tracker */,
+				9393BDCA2B3DFBCF00A5EC21 /* Koe Na Win Counter */,
+				9393BDC52B3DFBCF00A5EC21 /* Frameworks */,
 				9393BD792B377CAB00A5EC21 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				9393BD782B377CAB00A5EC21 /* Koe Na Win Tracker.app */,
+				9393BDC42B3DFBCF00A5EC21 /* Koe Na Win CounterExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +136,14 @@
 		9393BD7A2B377CAB00A5EC21 /* Koe Na Win Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				9393BDEC2B42A72500A5EC21 /* Koe-Na-Win-Tracker-Info.plist */,
+				9393BDE92B42A60F00A5EC21 /* GoogleService-Info.plist */,
+				9393BDDD2B3DFD2000A5EC21 /* Koe Na Win Tracker.entitlements */,
+				9393BDDF2B4291D400A5EC21 /* SignInView.swift */,
+				9393BD8B2B3787D900A5EC21 /* CalendarView.swift */,
+				9393BD8F2B3789AC00A5EC21 /* MenuView.swift */,
+				9393BD8D2B3788DC00A5EC21 /* TodayView.swift */,
+				9393BD892B377CD400A5EC21 /* CustomTabBar.swift */,
 				9393BD7B2B377CAB00A5EC21 /* Koe_Na_Win_TrackerApp.swift */,
 				9393BD7D2B377CAB00A5EC21 /* ContentView.swift */,
 				9393BD7F2B377CAC00A5EC21 /* Assets.xcassets */,
@@ -67,6 +160,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9393BDC52B3DFBCF00A5EC21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9393BDC62B3DFBCF00A5EC21 /* WidgetKit.framework */,
+				9393BDC82B3DFBCF00A5EC21 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9393BDCA2B3DFBCF00A5EC21 /* Koe Na Win Counter */ = {
+			isa = PBXGroup;
+			children = (
+				9393BDCB2B3DFBCF00A5EC21 /* Koe_Na_Win_CounterBundle.swift */,
+				9393BDCD2B3DFBCF00A5EC21 /* Koe_Na_Win_CounterLiveActivity.swift */,
+				9393BDCF2B3DFBCF00A5EC21 /* Koe_Na_Win_Counter.swift */,
+				9393BDD12B3DFBCF00A5EC21 /* AppIntent.swift */,
+				9393BDD32B3DFBD000A5EC21 /* Assets.xcassets */,
+				9393BDD52B3DFBD000A5EC21 /* Info.plist */,
+			);
+			path = "Koe Na Win Counter";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +192,40 @@
 				9393BD742B377CAB00A5EC21 /* Sources */,
 				9393BD752B377CAB00A5EC21 /* Frameworks */,
 				9393BD762B377CAB00A5EC21 /* Resources */,
+				9393BDD92B3DFBD000A5EC21 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9393BDD72B3DFBD000A5EC21 /* PBXTargetDependency */,
+			);
+			name = "Koe Na Win Tracker";
+			packageProductDependencies = (
+				9393BDBE2B3A39B700A5EC21 /* HorizonCalendar */,
+				9393BDE22B42A57700A5EC21 /* FirebaseAuth */,
+				9393BDE52B42A5AF00A5EC21 /* GoogleSignIn */,
+				9393BDE72B42A5AF00A5EC21 /* GoogleSignInSwift */,
+			);
+			productName = "Koe Na Win Tracker";
+			productReference = 9393BD782B377CAB00A5EC21 /* Koe Na Win Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9393BDC32B3DFBCF00A5EC21 /* Koe Na Win CounterExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9393BDDC2B3DFBD000A5EC21 /* Build configuration list for PBXNativeTarget "Koe Na Win CounterExtension" */;
+			buildPhases = (
+				9393BDC02B3DFBCF00A5EC21 /* Sources */,
+				9393BDC12B3DFBCF00A5EC21 /* Frameworks */,
+				9393BDC22B3DFBCF00A5EC21 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Koe Na Win Tracker";
-			productName = "Koe Na Win Tracker";
-			productReference = 9393BD782B377CAB00A5EC21 /* Koe Na Win Tracker.app */;
-			productType = "com.apple.product-type.application";
+			name = "Koe Na Win CounterExtension";
+			productName = "Koe Na Win CounterExtension";
+			productReference = 9393BDC42B3DFBCF00A5EC21 /* Koe Na Win CounterExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +240,9 @@
 					9393BD772B377CAB00A5EC21 = {
 						CreatedOnToolsVersion = 15.1;
 					};
+					9393BDC32B3DFBCF00A5EC21 = {
+						CreatedOnToolsVersion = 15.1;
+					};
 				};
 			};
 			buildConfigurationList = 9393BD732B377CAB00A5EC21 /* Build configuration list for PBXProject "Koe Na Win Tracker" */;
@@ -109,13 +252,20 @@
 			knownRegions = (
 				en,
 				Base,
+				"my-MM",
 			);
 			mainGroup = 9393BD6F2B377CAB00A5EC21;
+			packageReferences = (
+				9393BDBD2B3A39B700A5EC21 /* XCRemoteSwiftPackageReference "HorizonCalendar" */,
+				9393BDE12B42A57700A5EC21 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				9393BDE42B42A5AF00A5EC21 /* XCRemoteSwiftPackageReference "googlesignin-ios" */,
+			);
 			productRefGroup = 9393BD792B377CAB00A5EC21 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9393BD772B377CAB00A5EC21 /* Koe Na Win Tracker */,
+				9393BDC32B3DFBCF00A5EC21 /* Koe Na Win CounterExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -126,7 +276,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				9393BD832B377CAC00A5EC21 /* Preview Assets.xcassets in Resources */,
+				9393BDEA2B42A60F00A5EC21 /* GoogleService-Info.plist in Resources */,
+				9393BDB92B38E6A900A5EC21 /* Localizable.strings in Resources */,
 				9393BD802B377CAC00A5EC21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9393BDC22B3DFBCF00A5EC21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9393BDD42B3DFBD000A5EC21 /* Assets.xcassets in Resources */,
+				9393BDEB2B42A60F00A5EC21 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,11 +299,48 @@
 			buildActionMask = 2147483647;
 			files = (
 				9393BD7E2B377CAB00A5EC21 /* ContentView.swift in Sources */,
+				9393BDB42B37B8E500A5EC21 /* TaskViewModel.swift in Sources */,
+				9393BD902B3789AC00A5EC21 /* MenuView.swift in Sources */,
+				9393BD8A2B377CD400A5EC21 /* CustomTabBar.swift in Sources */,
+				9393BD8C2B3787DA00A5EC21 /* CalendarView.swift in Sources */,
+				9393BD8E2B3788DC00A5EC21 /* TodayView.swift in Sources */,
+				9393BDE02B4291D400A5EC21 /* SignInView.swift in Sources */,
 				9393BD7C2B377CAB00A5EC21 /* Koe_Na_Win_TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9393BDC02B3DFBCF00A5EC21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9393BDCC2B3DFBCF00A5EC21 /* Koe_Na_Win_CounterBundle.swift in Sources */,
+				9393BDD22B3DFBCF00A5EC21 /* AppIntent.swift in Sources */,
+				9393BDD02B3DFBCF00A5EC21 /* Koe_Na_Win_Counter.swift in Sources */,
+				9393BDCE2B3DFBCF00A5EC21 /* Koe_Na_Win_CounterLiveActivity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9393BDD72B3DFBD000A5EC21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9393BDC32B3DFBCF00A5EC21 /* Koe Na Win CounterExtension */;
+			targetProxy = 9393BDD62B3DFBD000A5EC21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9393BDBB2B38E6A900A5EC21 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9393BDBA2B38E6A900A5EC21 /* en */,
+				9393BDBC2B38E6BC00A5EC21 /* my-MM */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9393BD842B377CAC00A5EC21 /* Debug */ = {
@@ -267,14 +465,17 @@
 		9393BD872B377CAC00A5EC21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Koe Na Win Tracker/Koe Na Win Tracker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Koe Na Win Tracker/Preview Content\"";
 				DEVELOPMENT_TEAM = Q8YYBK7FL8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Koe-Na-Win-Tracker-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -296,14 +497,17 @@
 		9393BD882B377CAC00A5EC21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Koe Na Win Tracker/Koe Na Win Tracker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Koe Na Win Tracker/Preview Content\"";
 				DEVELOPMENT_TEAM = Q8YYBK7FL8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Koe-Na-Win-Tracker-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +520,62 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kaungminkhant.Koe-Na-Win-Tracker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9393BDDA2B3DFBD000A5EC21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Koe Na Win CounterExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q8YYBK7FL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Koe Na Win Counter/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Koe Na Win Counter";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaungminkhant.Koe-Na-Win-Tracker.Koe-Na-Win-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9393BDDB2B3DFBD000A5EC21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Koe Na Win CounterExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q8YYBK7FL8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Koe Na Win Counter/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Koe Na Win Counter";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kaungminkhant.Koe-Na-Win-Tracker.Koe-Na-Win-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -343,7 +603,66 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		9393BDDC2B3DFBD000A5EC21 /* Build configuration list for PBXNativeTarget "Koe Na Win CounterExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9393BDDA2B3DFBD000A5EC21 /* Debug */,
+				9393BDDB2B3DFBD000A5EC21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9393BDBD2B3A39B700A5EC21 /* XCRemoteSwiftPackageReference "HorizonCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/HorizonCalendar.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		9393BDE12B42A57700A5EC21 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.1;
+			};
+		};
+		9393BDE42B42A5AF00A5EC21 /* XCRemoteSwiftPackageReference "googlesignin-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/googlesignin-ios/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9393BDBE2B3A39B700A5EC21 /* HorizonCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9393BDBD2B3A39B700A5EC21 /* XCRemoteSwiftPackageReference "HorizonCalendar" */;
+			productName = HorizonCalendar;
+		};
+		9393BDE22B42A57700A5EC21 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9393BDE12B42A57700A5EC21 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9393BDE52B42A5AF00A5EC21 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9393BDE42B42A5AF00A5EC21 /* XCRemoteSwiftPackageReference "googlesignin-ios" */;
+			productName = GoogleSignIn;
+		};
+		9393BDE72B42A5AF00A5EC21 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9393BDE42B42A5AF00A5EC21 /* XCRemoteSwiftPackageReference "googlesignin-ios" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9393BD702B377CAB00A5EC21 /* Project object */;
 }

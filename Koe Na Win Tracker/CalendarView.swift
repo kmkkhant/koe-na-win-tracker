@@ -6,18 +6,25 @@
 //
 
 import SwiftUI
+import HorizonCalendar
 
 struct CalendarView: View {
+    @State private var selectedDate = Date()
+    
     var body: some View {
         NavigationView {
-            
-            
-            Text("Calendar")
+            VStack{
+                Text("hello")
+            }
             .navigationTitle("Calendar")
+            
         }
             
     }
+    
+    
 }
+
 
 #Preview {
     CalendarView()
