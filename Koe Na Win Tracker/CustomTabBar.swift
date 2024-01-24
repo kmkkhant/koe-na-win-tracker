@@ -8,8 +8,7 @@
 import SwiftUI
 
 enum Tab: String, CaseIterable {
-    case calendar = "calendar"
-    case timer = "calendar.day.timeline.left"
+    case timer = "calendar"
     case chart = "chart.bar"
     case person = "person"
 }
@@ -45,5 +44,5 @@ struct CustomTabBar: View {
 }
 
 #Preview {
-    CustomTabBar(selectedTab: .constant(.calendar))
+    CustomTabBar(selectedTab: .constant(.timer))
 }

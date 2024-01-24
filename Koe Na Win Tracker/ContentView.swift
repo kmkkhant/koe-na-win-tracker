@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selectedTab: Tab = .calendar
+    @State private var selectedTab: Tab = .timer
     
     init() {
         UITabBar.appearance().isHidden = true
@@ -18,11 +18,6 @@ struct ContentView: View {
         
         NavigationView {
             TabView(selection: $selectedTab) {
-                CalendarView()
-                    .tabItem {
-                        Label("Calendar", systemImage: Tab.calendar.rawValue)
-                    }
-                    .tag(Tab.calendar)
                 
                 TodayView()
                     .tabItem {

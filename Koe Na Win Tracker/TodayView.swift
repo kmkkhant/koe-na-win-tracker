@@ -18,6 +18,8 @@ struct TodayView: View {
     @State private var isDatePickerVisible = false
     
     var body: some View {
+        
+        ZStack{
         ScrollView(.vertical, showsIndicators: false){
             LazyVStack(spacing: 15, pinnedViews: [.sectionHeaders]){
                 Section {
@@ -54,20 +56,17 @@ struct TodayView: View {
                                         taskModel.currentDay = day
                                     }
                                 }
-                                
                             }
-                            
                         }
-                        
                         .padding(.horizontal)
                     }
                 } header: {
                     HeaderView()
                 }
-                
-            }
-            
-        }
+            } //LazyVSTack end
+        } //ScrollView End
+        
+    } //ZStack End
         .overlay(
             Group{
                 ZStack {
@@ -82,6 +81,7 @@ struct TodayView: View {
                                 "Select a date",
                                 selection: $selectedDate,
                                 displayedComponents: [.date]
+                                
                             )
                             .datePickerStyle(GraphicalDatePickerStyle())
                             .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
@@ -110,11 +110,12 @@ struct TodayView: View {
                 }
             }
             )
-        .onChange(of: isDatePickerVisible) { isVisible in
-                    if isVisible {
-                        selectedDate = taskModel.currentDay // Set selected date to current day
-                    }
-                }
+        .onChange(of: isDatePickerVisible, initial: isDatePickerVisible) { (previousValue, newValue) in
+            if newValue {
+                selectedDate = taskModel.currentDay // Set selected date to current day
+            }
+        }
+
         .popover(isPresented: $taskModel.showDatePicker, content: {
                     Button(action: {
                         isDatePickerVisible = true // Show the custom date picker

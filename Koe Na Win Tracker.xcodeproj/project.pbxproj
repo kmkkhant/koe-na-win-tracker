@@ -12,7 +12,6 @@
 		9393BD802B377CAC00A5EC21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9393BD7F2B377CAC00A5EC21 /* Assets.xcassets */; };
 		9393BD832B377CAC00A5EC21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9393BD822B377CAC00A5EC21 /* Preview Assets.xcassets */; };
 		9393BD8A2B377CD400A5EC21 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393BD892B377CD400A5EC21 /* CustomTabBar.swift */; };
-		9393BD8C2B3787DA00A5EC21 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393BD8B2B3787D900A5EC21 /* CalendarView.swift */; };
 		9393BD8E2B3788DC00A5EC21 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393BD8D2B3788DC00A5EC21 /* TodayView.swift */; };
 		9393BD902B3789AC00A5EC21 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393BD8F2B3789AC00A5EC21 /* MenuView.swift */; };
 		9393BDB42B37B8E500A5EC21 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393BDB32B37B8E500A5EC21 /* TaskViewModel.swift */; };
@@ -65,7 +64,6 @@
 		9393BD7F2B377CAC00A5EC21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9393BD822B377CAC00A5EC21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9393BD892B377CD400A5EC21 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
-		9393BD8B2B3787D900A5EC21 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		9393BD8D2B3788DC00A5EC21 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
 		9393BD8F2B3789AC00A5EC21 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		9393BDB32B37B8E500A5EC21 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
@@ -140,7 +138,6 @@
 				9393BDE92B42A60F00A5EC21 /* GoogleService-Info.plist */,
 				9393BDDD2B3DFD2000A5EC21 /* Koe Na Win Tracker.entitlements */,
 				9393BDDF2B4291D400A5EC21 /* SignInView.swift */,
-				9393BD8B2B3787D900A5EC21 /* CalendarView.swift */,
 				9393BD8F2B3789AC00A5EC21 /* MenuView.swift */,
 				9393BD8D2B3788DC00A5EC21 /* TodayView.swift */,
 				9393BD892B377CD400A5EC21 /* CustomTabBar.swift */,
@@ -302,7 +299,6 @@
 				9393BDB42B37B8E500A5EC21 /* TaskViewModel.swift in Sources */,
 				9393BD902B3789AC00A5EC21 /* MenuView.swift in Sources */,
 				9393BD8A2B377CD400A5EC21 /* CustomTabBar.swift in Sources */,
-				9393BD8C2B3787DA00A5EC21 /* CalendarView.swift in Sources */,
 				9393BD8E2B3788DC00A5EC21 /* TodayView.swift in Sources */,
 				9393BDE02B4291D400A5EC21 /* SignInView.swift in Sources */,
 				9393BD7C2B377CAB00A5EC21 /* Koe_Na_Win_TrackerApp.swift in Sources */,
@@ -481,6 +477,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -513,6 +510,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
